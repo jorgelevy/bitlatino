@@ -37,7 +37,7 @@ jobs:
 
       - name: Show contents of build log
         run: |
-          cat _site/index.html
+          head -n 20 _site/index.html
 
       - name: Show working directory
         run: echo "Workspace is $GITHUB_WORKSPACE"
@@ -49,7 +49,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_DUNE_0CDD5261E }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
-          app_location: "."
+          app_location: "_site"
           api_location: ""
           output_location: "_site"
           skip_app_build: true
@@ -66,6 +66,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_DUNE_0CDD5261E }}
           action: "close"
+
 
 
 
