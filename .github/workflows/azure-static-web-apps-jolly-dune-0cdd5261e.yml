@@ -52,7 +52,7 @@ jobs:
           app_location: "."
           api_location: ""
           output_location: "_site"
-          app_build_command: "bundle exec jekyll b -d _site"
+          app_build_command: "gem install bundler -v 2.5.22 && bundle exec jekyll b -d _site"
           # skip_app_build: true
           ###### End of Repository/Build Configurations ######
 
@@ -67,6 +67,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_JOLLY_DUNE_0CDD5261E }}
           action: "close"
+
 
 
 
