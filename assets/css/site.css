@@ -1,0 +1,7 @@
+.preview-img {
+  height: auto;
+}
+
+.plyr__controls {
+  background-color: var(--card-bg) !important;
+}
