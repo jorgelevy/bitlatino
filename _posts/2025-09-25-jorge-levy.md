@@ -5,7 +5,7 @@ date: 2025-09-25 12:00:00 -700
 # tags: [presentaciones, c#, .net 9, logging]     # TAG names should always be lowercase
 layout: post
 description: "Hoy conversamos con Jorge Levy, un talentoso Desarrollador .NET radicado en Estados Unidos, quien nos comparte su experiencia profesional, retos en la industria tecnológica y consejos para quienes buscan crecer en el mundo del desarrollo de software."
-image: /assets/img/01-jorge-levy-tmp.png
+image: /assets/img/01-jorge-levy.png
 file: https://anchor.fm/s/e88377d0/podcast/play/108834350/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-8-26%2F408172301-44100-2-c91e051aa317b.m4a
 ---
 
