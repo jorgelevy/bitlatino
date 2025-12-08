@@ -1,7 +1,6 @@
 ---
 title: Detrás del Código con Héctor Pérez | &#35; 2
-# categories: [Presentaciones, C#, Logging]
-# tags: [presentaciones, c#, .net 9, logging]     # TAG names should always be lowercase
+date: 2025-10-02 12:00:00 -700
 layout: post
 description: "Hoy conversamos con Héctor Pérez, quien nos comparte su experiencia profesional, retos en la industria tecnológica y consejos para quienes buscan crecer en el mundo del desarrollo de software."
 image: /assets/img/02-hector-perez.png
