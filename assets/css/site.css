@@ -5,3 +5,7 @@
 .plyr__controls {
   background-color: var(--card-bg) !important;
 }
+
+.preview-img {
+  aspect-ratio: auto;
+}
