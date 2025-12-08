@@ -13,4 +13,4 @@ Pablo es un referente en inteligencia artificial, nube y tecnologías Microsoft,
 
 💬 Pablo comparte su visión sobre el futuro del desarrollo, el poder transformador de la IA y cómo los profesionales latinoamericanos están impulsando la próxima ola de innovación tecnológica.
 
-🔔 ¡Suscríbete para más entrevistas con líderes de la comunidad Microsoft, referentes en IA y profesiona
+🔔 ¡Suscríbete para más entrevistas con líderes de la comunidad Microsoft, referentes en IA y profesionales de tecnología!
