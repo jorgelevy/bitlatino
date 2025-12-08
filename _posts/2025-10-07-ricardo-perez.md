@@ -1,6 +1,6 @@
 ---
 title: Detrás del Código con Ricardo Pérez | &#35; 3
-date: 2025-10-02 12:00:00 -700
+date: 2025-10-07 12:00:00 -700
 layout: post
 description: "Hoy conversamos con Ricardo Josué Pérez Altamirano, Microsoft MVP, ingeniero en TIC’s y arquitecto de soluciones en Alestra. Ricardo nos comparte su experiencia en el diseño e implementación de soluciones tecnológicas, los retos de la transformación digital y sus consejos para quienes buscan crecer en el mundo de la nube y el desarrollo de software."
 image: /assets/img/03-ricardo-perez.png
