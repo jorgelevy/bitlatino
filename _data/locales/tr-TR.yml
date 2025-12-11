@@ -75,5 +75,9 @@ post:
 
 # categories page
 categories:
-  category_measure: kategori
-  post_measure: gönderi
+  category_measure:
+    singular: kategori
+    plural: kategori
+  post_measure:
+    singular: gönderi
+    plural: gönderi
