@@ -1,0 +1,57 @@
+{% comment %} <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.8.3/plyr.polyfilled.js"
+  integrity="sha512-AE/rNdAZLP7DWWmataNQp2Tmmt/BW9CRQQ84Q5pt6Sk8gZOj3vrm/bYi7J3iwCkcdM3HHBcXnp5ckULLmigAEQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script> {% endcomment %}
+<script src="https://cdn.plyr.io/3.8.3/plyr.polyfilled.js"></script>
+
+<script>
+    /* See https://github.com/sampotts/plyr for more information about customization */
+
+    const controls =
+    [
+     "play",
+     "rewind",
+     'progress',
+     "fast-forward",
+     'current-time',
+     'mute',
+     'volume',
+     'settings',
+     'airplay',
+    ];
+
+    const players = Array.from(document.querySelectorAll(".player"));
+        players.map(player => new Plyr(player, {
+        controls,
+        invertTime: true,
+        toggleInvert: true,
+        settings: ['quality', 'speed'],
+        i18n: {
+            restart: 'Reiniciar',
+            rewind: 'Rebobinar {seektime} segundos',
+            play: 'Reproducir',
+            pause: 'Pausa',
+            fastForward: 'Avanzar {seektime} segundos',
+            seek: 'Buscar',
+            played: 'Reproducido',
+            buffered: 'Almacenado en búfer',
+            currentTime: 'Tiempo actual',
+            duration: 'Duración',
+            volume: 'Volumen',
+            mute: 'Silenciar',
+            unmute: 'Activar sonido',
+            enterFullscreen: 'Pantalla completa',
+            exitFullscreen: 'Salir de pantalla completa',
+            frameTitle: 'Reproductor para {title}',
+            settings: 'Configuraciones',
+            speed: 'Velocidad',
+            normal: 'Normal',
+            quality: 'Calidad',
+            loop: 'Bucle',
+            start: 'Inicio',
+            end: 'Fin',
+            all: 'Todo',
+            reset: 'Restablecer',
+            disabled: 'Deshabilitado',
+        }
+    }));
+</script>
