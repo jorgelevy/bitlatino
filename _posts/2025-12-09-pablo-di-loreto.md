@@ -1,5 +1,5 @@
 ---
-title: Detrás del Código con Pablo Di Loreto | &#35; 10
+title: Detrás del Código con Pablo Di Loreto | &#35; 11
 date: 2025-12-09 12:00:00 -700
 layout: post
 description: "En este episodio charlamos con Pablo Ariel Di Loreto, Director de Ingeniería en MODO, fundador de ConoSurTech y AprenderIT, y Microsoft MVP en Azure e Inteligencia Artificial."
